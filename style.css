@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(239, 194, 16);
+}
+
+h1{
+    color:blue;
+    background-color: cornsilk;
+    font-family: Oleo Script Swash Caps;
+}
+
+#show_sketch
+{
+    float:right;
+    font-family: Merriweather Sans;
+
+}
+
+canvas
+{
+    
+    
+    border:5px white;
+    border-radius:20px;
+    animation-name:example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example
+
+{from{box-shadow: 1px 1px 38px red;}
+to{box-shadow: 1px 1px 38px orange;}
+}
+
+
+p
+{
+
+
+    font-family: Quicksand;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#cc
+{
+    margin-top: 500px;
+}
+   
+
+
+    
+
+
+
